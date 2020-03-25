@@ -18,9 +18,9 @@ do{
     var numU = parseInt(prompt(`Intento: ${intentos} - Ingresa un numero: `));
     
     if(numU<nAleatorio){
-        document.write(`Ingreso: ${numU} - El numero magico es mayor`);
+        console.log(`Ingreso: ${numU} - El numero magico es mayor`);
     }else if(numU>nAleatorio){
-        document.write(`Ingreso: ${numU} - El numero magico es menor`);
+        console.log(`Ingreso: ${numU} - El numero magico es menor`);
     }
 }while(numU!=nAleatorio); // condicion: mientras el numero introducido sea diferente al aleatorio se repitira 
 
